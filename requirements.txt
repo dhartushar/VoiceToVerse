@@ -1,0 +1,24 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+--only-binary=all
+torch
+torchaudio
+
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ML/AI models
+faster-whisper==0.10.0
+pyannote.audio==3.1.1
+
+# Audio processing
+soundfile==0.12.1
+scipy>=1.11.0
+
+# Utilities
+numpy>=1.24.0
+pydantic>=2.0.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+matplotlib==3.7.2
