@@ -65,6 +65,12 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Running the server
+run the fasAPI server with 
+```
+python main.py
+```
+
 ##API usage
 
 ```
